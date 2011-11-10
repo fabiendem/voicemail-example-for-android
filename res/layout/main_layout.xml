@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center"
+>
+  <!-- IMAP column -->
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+  >
+    <TextView
+      android:text="@string/imap_commands"
+      android:textStyle="bold"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center" />
+    <Button
+      android:text="@string/sync_messages"
+      android:id="@+id/sync_messages_button"
+      android:layout_width="150dip"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dip" />
+    <ProgressBar
+      android:id="@+id/sync_progress_bar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:visibility="invisible" />
+    <Button
+      android:text="@string/upload_greeting"
+      android:id="@+id/upload_greeting_button"
+      android:layout_width="150dip"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dip" />
+  </LinearLayout>
+
+  <!-- SMS column -->
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="top">
+    <TextView
+      android:text="@string/sms_commands"
+      android:textStyle="bold"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center" />
+    <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="top">
+      <TextView
+      android:id="@+id/sms_progress_text"
+      android:text="@string/sending_sms"
+      android:textStyle="bold"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:visibility="invisible" />
+      <ProgressBar
+      android:id="@+id/sms_progress_bar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:visibility="invisible" />
+    </LinearLayout>
+    <Button
+      android:text="@string/activate_vvm"
+      android:id="@+id/activate_vvm_button"
+      android:layout_width="150dip"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dip" />
+    <Button
+      android:text="@string/get_vvm_status"
+      android:id="@+id/get_vvm_status_button"
+      android:layout_width="150dip"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dip" />
+    <Button
+      android:text="@string/deactivate_vvm"
+      android:id="@+id/deactivate_vvm_button"
+      android:layout_width="150dip"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dip" />
+    </LinearLayout>
+</LinearLayout>

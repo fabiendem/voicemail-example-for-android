@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="imap_commands">IMAP</string>
+    <string name="sms_commands">SMS</string>
+    <string name="error_title">Something went wrong</string>
+    <string name="app_name">Voicemail Example for Android</string>
+    <string name="settings_title">Settings</string>
+    <string name="add_messages">Store Messages</string>
+    <string name="upload_greeting">Upload Greeting</string>
+    <string name="activate_vvm">Activate Vvm</string>
+    <string name="deactivate_vvm">Deactivate Vvm</string>
+    <string name="get_vvm_status">Get Vvm Status</string>
+    <string name="menu_clear_items">Clear items</string>
+    <string name="menu_settings">Settings</string>
+    <string name="sync_messages">Sync Messages</string>
+    <string name="sync_completed">Sync Messages</string>
+    <string name="sync_in_progress">Syncing...</string>
+    <string name="sending_sms">Sending sms...</string>
+    <string name="fake_mode_checkbox_preference_title">Fake Mode</string>
+    <string name="fake_mode_on_preference_summary">Fetch fake voicemails from sdcard.</string>
+    <string name="fake_mode_off_preference_summary">Fetch voicemails from network.</string>
+</resources>
