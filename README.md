@@ -1,3 +1,8 @@
+# Voicemail Example for Android
+Clone of https://code.google.com/p/voicemail-example-for-android/  
+Main author is @flerda
+
+## Description
 This package contains an example implementation of a voicemail source for
 Android.
 
@@ -13,7 +18,7 @@ sample implementation used to provide an example of how the Voicemail related
 APIs on Android can be used to integrate a voicemail service.
 
 ----
-### License
+## License
 
 Copyright 2011 Google Inc. All Rights Reserved.
 
