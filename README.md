@@ -1,6 +1,6 @@
 # Voicemail Example for Android
 Clone of https://code.google.com/p/voicemail-example-for-android/  
-Main author is @flerda
+Main author is [@flerda](https://github.com/flerda)
 
 ## Description
 This package contains an example implementation of a voicemail source for
